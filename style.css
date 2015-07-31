@@ -1,0 +1,194 @@
+ /*   
+Theme Name: Jumal 1.0
+Theme URI: http://www.mafulprayogaarnandi.blogspot.com
+Author: Maful Prayoga Arnandi
+Author URI: http://twitter.com/mafulprayoga
+Description: The Fast, Easy, and Elegant theme.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue, orange, red, black, brown, custom-menu, featured-images
+Text Domain: twentyfifteen
+Version: 1.0
+*/
+body{
+	background-color: #F5F5F5;
+}
+.content ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: outside none none;
+}
+.content>ul>li>a{
+	padding: 20px 3px 20px 20px;
+}
+.widget_recent_entries>.heading{
+	background: #E74C3C none repeat scroll 0% 0% !important
+}
+.widget_categories>.content>ul>li{
+	border-bottom:1px solid rgba(51, 51, 51, 0.1);
+	padding: 10px 0px 10px 0px;
+}
+
+.widget_categories>.heading{
+	background: #34495E none repeat scroll 0% 0% !important;
+}
+
+.widget{
+	margin-bottom: 10px;
+}
+
+.entry{
+	margin-bottom: 20px;
+	padding: 20px 30px;
+}
+
+article, header, .putih, .comments-area{
+	background-color: #FFF;
+}
+
+h1.entry-title{
+	float: left;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 120%;
+	width: 100%;
+}
+
+.post-info{
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+h3.story-cat{
+	float: left;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 5px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.comments-area{
+	border-top: 0px none;
+	padding: 8.3333%;
+	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15);
+}
+.comments-title{
+	margin-bottom: 1.4545em;
+	line-height: 1.1852;
+	font-weight: 700;
+}
+.comment-list, .children{
+	list-style: outside none none;
+	margin: 0px;
+}
+.comment-author { margin-top: 10px; }
+.comment-author .avatar{
+	height: 56px;
+	margin-right: 1.6842em;
+	top: 3px;
+	width: 56px;
+}
+.comment-author cite{ font-weight: 700; }
+.commentmetadata{
+	line-height: 2;
+	margin-bottom: 1.6em;
+}
+.comment-list .comment-body{ border-top: 1px solid rgba(51, 51, 51, 0.1); }
+.comment-body p {
+	-moz-hyphens: auto;
+	word-wrap: break-word;
+	margin-bottom: 0px;
+}
+.comment-list .reply a{
+	border: 1px solid rgba(51, 51, 51, 0.1);
+	color: rgba(51, 51, 51, 0.7);
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	padding: 0.4375em 0.875em;
+}
+.comment-reply-title{ font-size: 2.7rem;line-height: 1.1852; }
+form .comment-form{ padding-top: 1.6842em; }
+.comment-notes{ line-height: 1.5;margin-bottom: 2em; }
+.comment-form input[type="text"], .comment-form input[type="email"], .comment-form input[type="url"], .comment-form input[type="submit"]{ width: 100%; }
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea{ padding: 0.5278em; }
+button, input{ line-height: normal; }
+input, textarea{ border: 1px solid rgba(51, 51, 51, 0.1);color: rgba(51, 51, 51, 0.7); }
+textarea{ overflow: auto;vertical-align: top; }
+.submit, input, select, textarea{ background-color: #F7F7F7;border-radius: 0px;margin: 0px;width: 100%;max-width: 100%;vertical-align: baseline; }
+.comment-respond label{ display: block;margin-right: 12px; }
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus{ background-color: rgba(51, 51, 51, 0.7);outline: 0px none; }
+button, input[type="button"], input[type="reset"], input[type="submit"]{ font-weight: 700;border: 0px none;color: #FFF;cursor: pointer;text-transform: uppercase;background-color: #333; }
+
+.post-navigation{
+	border-top: 0px none;
+	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15);
+	font-weight: 700;
+	background-color: #FFF;
+}
+.says, .screen-reader-text{
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+}
+.post-navigation .nav-next, .post-navigation .nav-previous{
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+.post-navigation div + div{ border-top: 1px solid rgba(51, 51, 51, 0.1); }
+.post-navigation a{ padding: 5% 10%;display: block; }
+.post-navigation .nav-next .post-title, .post-navigation .nav-next a:hover .post-title, .post-navigation .nav-next .meta-nav{ color: #FFF; }
+.post-navigation .meta-nav{ opacity: 0.8; letter-spacing: 0.04em;line-height: 1.5;position: relative;text-transform: uppercase;z-index: 2;}
+.post-navigation span{display: block;}
+.archive-description{font-size: 16px;padding: 30px;color: #FFF;background-color: #4A5865;}
+.archive-title{font-size: 20px;font-weight: 700;letter-spacing: 5px;}
+.entry-title{font-size: 30px;font-weight: 700;line-height: 1.2;}
+.entry-footer{padding: 5% 10%;color: rgba(51, 51, 51, 0.7);line-height: 1.5;}
+.posted-on, .byline, .cat-links, .tags-links, .comments-link, .entry-format, .full-size-link{margin-left: 1em;}
+.comments-link, .edit-link{white-space: nowrap;}
+nav.pagination{margin-top: 8.333%;border-top: 0px none;box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15);padding: 0px;background-color: #FFF;}
+.pagination .nav-links{min-height: 3.3684em;position: relative;text-align: center;}
+.pagination .page-numbers.current{text-transform: uppercase;}
+.pagination .page-numbers{line-height: 3.3684em;padding: 0px 0.8421em;display: inline-block;font-weight: 700;}
+.pagination .prev, .pagination .next{height: 52px;width: 70px;padding: 0px;background-color: #333;color: #FFF;overflow: hidden;position: absolute;}
+.pagination .prev{left: 0px;}
+.pagination .next{right: 0px;}
+.pagination .prev:hover, .pagination .prev:focus, .pagination .next:hover, .pagination .next:focus{background-color: rgba(51, 51, 51, 0.7);}
+.head-blog{margin: 20px;}
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 0.4118em 1.6471em 1.6471em 0;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 0.4118em 0 1.6471em 1.6471em;
+}
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+	margin-top: 0.4118em;
+	margin-bottom: 1.6471em;
+}
+.bypostauthor > article .fn:after {
+	top: 7px;
+	left: 6px;
+}
+.gallery-caption, .sticky, .wp-caption-text{
+	font-size: 16px;
+	font-size: 1.6rem;
+}
